@@ -1,0 +1,425 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/************************Header start**************************/
+@media(max-width:768px){
+  .header-social-icon{
+    display: none;
+  }
+}
+
+
+/************************Header end**************************/
+/************************ Navbar Start  **************************/
+.navbar-brand {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: var(--bs-dark) !important;
+}
+
+.navbar-nav .nav-item.center {
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+  height: 100%; /* Ensure the container takes full height */
+  font-size: 20px;
+}
+
+.navbar-nav.center .nav-link {
+  padding: 10px; /* Adjust spacing as needed */
+}
+
+nav {
+  background: #fff !important;
+  box-shadow: 1px 1px 2px #4444;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+}
+
+.navbar-toggler {
+  outline: none !important;
+  padding: none !important;
+}
+
+/***************************** Navbar End  ***************************/
+
+/*********************************Carousel start**************************/
+
+.carousel-inner .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before {
+  content: ' ';
+  background-color: rgb(12,11,10,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.carousel-inner .carousel-caption
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 37%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner .carousel-caption span{
+  color: var(--bs-blue);
+
+
+
+}
+.carousel-inner .carousel-caption h2{
+  color: #ffff;
+  font-size: 42px;
+  font-weight: 600;
+  width: 80%;
+  margin: 0px auto 10px auto;
+}
+
+.carousel-inner .carousel-caption p{
+  font-size: 20px;
+  width: 80%;
+  margin: 0px auto 20px auto;
+}
+
+@media(max-width:768px)
+{
+  .carousel-inner .carousel-caption h2{
+    font-size: 38px;
+  }
+}
+
+@media(max-width:577px)
+{
+  .carousel-inner .carousel-caption h2{
+    font-size: 25px;
+  }
+  .carousel-inner .carousel-caption p{
+    font-size: 13px;
+  }
+}
+/*********************************Carousel end**************************/
+
+/*******************************second section start*************/
+.margin-top-50{
+  margin-top: 50px ;
+}
+
+.width-33{
+  width: 33%;
+  float: left;
+}
+
+.latest-news{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #fff;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.heading-sect{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+  border: 1px solid #cfcfcf;
+  padding-top: 15px;
+  padding-left: 15px;
+  background: #00aed9;
+  color: white;
+}
+
+.head-title{
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.latest-news-ul{
+  padding: 0px;
+  list-style: none;
+  line-height: 40px;
+
+}
+
+.event-list{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #fff;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+}
+.upcoming-event-list{
+  padding: 0px;
+  list-style: none;
+
+}
+
+.upcoming-event-list li{
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+.event-date{
+  background:#03a9f4 ;
+  width: 49px;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.notice-board{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #fff;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.notice-board-list{
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.notice-board-list li{
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+/*******************************second section end*************/
+
+
+/***************************** Sign In And Sign Up form for student start **************************/
+/* Styles for the fullscreen background */
+.login1 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/s4.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 515px; /* try to used other way */
+  left: 0;
+  z-index: -1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.form-box{
+  width: 90%;
+  max-width: 440px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background: #fff;
+  padding: 50px 60px 70px;
+}
+
+.form-box h1{
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: black;
+  position: relative;
+}
+
+.form-box h1::after{
+  content: ' ';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #3c00a0;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-field{
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+.input-field i{
+  margin-left: 15px;
+  color: #999;
+
+}
+
+form p{
+  text-align: left;
+  font-size: 13px;
+
+}
+form p a {
+  text-decoration: none;
+}
+
+.btn-field{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-field button{
+  flex-basis: 48%;
+  background: #3c00a0;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.input-group{
+  height: 280px;
+
+}
+
+.margin-top-50{
+  margin-top: 50px ;
+}
+
+.width-33{
+  width: 33%;
+  float: left;
+}
+
+/* .container1{
+  max-width: 400px;
+  margin: 0 auto;
+  
+} */
+
+/************************* Sign In And Sign Up form for student end *****************************/
+
+
+/************************* attendence page for student start *****************************/
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+} */
+
+h2 {
+  text-align: center;
+  color: #3c00a0;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.table-container {
+  margin: 0 auto; /* Center align horizontally */
+  width: 70%; /* Set desired width */
+}
+
+table {
+  width: 100%; /* Table occupies full width of container */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+ td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: bold;
+}
+thead{
+  background-color: #8243eb;
+  text-align: center;
+  font-size: 25px;
+}
+tbody{
+  margin-right: 50px;
+  margin-left: 50px ;
+}
+/************************* attendence page for student end *****************************/
+
+/**********************************Exam time table for student start************************/
+
+
+/* same styleing as attendence page because tags are same  */
+
+
+/**********************************Exam time table for student end************************/
+
+/**********************************Period time table for student start************************/
+.time-table{
+  background-color: #8243eb;
+    text-align: center;
+    font-size: 19px;
+    border: 1px solid black;
+}
+
+/**********************************Period time table for student end************************/
+
+/* period time table for teacher  start*/
+/* .container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+h1 {
+  color: #333;
+  text-align: center;
+}
+p {
+  line-height: 1.6;
+}
+img {
+  max-width: 100%; /* Adjust the width of the image as needed */
+  /* height: auto;
+  margin-right: 20px;
+} */ 
+
+/* period time table for teacher end  */
