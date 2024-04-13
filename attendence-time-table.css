@@ -1,0 +1,60 @@
+/************************* attendence page for student start *****************************/
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+} */
+
+h2 {
+    text-align: center;
+    color: #3c00a0;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  
+  .table-container {
+    margin: 0 auto; /* Center align horizontally */
+    width: 70%; /* Set desired width */
+  }
+  
+  table {
+    width: 100%; /* Table occupies full width of container */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  thead {
+    background-color: #8243eb;
+    text-align: center;
+    font-size: 25px;
+  }
+  tbody {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  /************************* attendence page for student end *****************************/
+  
+  /**********************************Exam time table for student start************************/
+  
+  /* same styleing as attendence page because tags are same  */
+  
+  /**********************************Exam time table for student end************************/
+  
+  /**********************************Period time table for student start************************/
+  .time-table {
+    background-color: #8243eb;
+    text-align: center;
+    font-size: 19px;
+    border: 1px solid black;
+  }
+  
+  /**********************************Period time table for student end************************/
+  
+  
