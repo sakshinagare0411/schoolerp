@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('bh.jpeg'); /* Replace 'images.jpeg' with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Set the height to fit the viewport */
+        }
+        .container {
+            max-width: 800px;
+            margin-top: 100px; /* Adjust the margin from the top */
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        }
+        .card-title {
+            color: #333;
+        }
+        header h1 {
+            font-size: 70px; /* Increase title size */
+            color: #140dd2; /* Change title color to white */
+            margin-top: 46px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Contact Us</h1>
+    </header>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Fill out the form below:</h5>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</html>
